@@ -1,12 +1,23 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
+import Navbar from './component/Navbar';
+import Restarent from './component/Restarent';
+import UseState from './component/Hooks/UseState';
+import UseEffect from './component/Hooks/UseEffect';
+import UseReducer from './component/Hooks/UseReducer';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+     <Navbar />
+    {/* <Restarent/> */}
+    {/* <UseState/> */}
+    {/* <UseEffect/> */}
+    <UseReducer/>
   </React.StrictMode>,
   document.getElementById('root')
 );
