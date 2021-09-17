@@ -9,7 +9,7 @@ import Restarent from './component/Restarent';
 import UseState from './component/Hooks/UseState';
 import UseEffect from './component/Hooks/UseEffect';
 import UseReducer from './component/Hooks/UseReducer';
-
+import Todo from './component/Todo/Todo';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,7 +17,8 @@ ReactDOM.render(
     {/* <Restarent/> */}
     {/* <UseState/> */}
     {/* <UseEffect/> */}
-    <UseReducer/>
+    {/* <UseReducer/> */}
+    <Todo/>
   </React.StrictMode>,
   document.getElementById('root')
 );
